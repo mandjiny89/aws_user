@@ -1,4 +1,2 @@
-Guru,
-Matrix,
-Green,
-Rocky
+Rocky,
+Jacky
