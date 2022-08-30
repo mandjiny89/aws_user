@@ -1,4 +1,5 @@
 import boto3
+iam = boto3.client('iam')
 class UserAdd:
     def __init__(self):
         print("############  Class Started  ##############")
@@ -29,4 +30,5 @@ class UserAdd:
                 print("User already exit", user_name)
 
 if __name__ == '__main__':
-    UserAdd()
+    userAdd = UserAdd()
+    userAdd.userCreation()
