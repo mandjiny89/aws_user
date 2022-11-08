@@ -7,7 +7,7 @@ with open('user_list.txt') as f:
 
 for user_name in users_sorted.split(","):
     # create a user
-    print("pr test")
+    print("pr test using git")
     print("User name added to the IAM ", user_name)
     iam.create_user(UserName=user_name)
     # attach a policy
